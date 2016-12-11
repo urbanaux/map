@@ -2,8 +2,6 @@ document.addEventListener 'DOMContentLoaded', (event) ->
   mapOptions = {
     center: new google.maps.LatLng(48.370906, 10.89941),
     zoom: 14,
-    # restricted to https://urbanaux.github.io/map/
-    key: 'AIzaSyCoCduD5RmK5jGEdyxogQj0vfxW3ri4Av8',
     styles: [{
       "featureType": "all",
       "elementType": "labels.text.fill",
