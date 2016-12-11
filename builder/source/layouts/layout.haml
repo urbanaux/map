@@ -12,5 +12,8 @@
     = javascript_include_tag :all
   %body
     = yield
-    = javascript_include_tag '//maps.google.com/maps/api/js?key=AIzaSyCoCduD5RmK5jGEdyxogQj0vfxW3ri4Av8&libraries=places'
+    - if environment == :development
+      = javascript_include_tag '//maps.google.com/maps/api/js?libraries=places'
+    - else
+      = javascript_include_tag '//maps.google.com/maps/api/js?key=AIzaSyCoCduD5RmK5jGEdyxogQj0vfxW3ri4Av8&libraries=places'
 
