@@ -7,5 +7,7 @@
                  \/     \/     \/     \/            \
                  
 >> https://www.facebook.com/urbanaux
->> https://urbanaux.github.io/map/                
+>> https://urbanaux.github.io/map/?token=your-password
+              
+map.encrypt('your-password', 'your-string')
 ```

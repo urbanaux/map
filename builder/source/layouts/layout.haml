@@ -8,8 +8,9 @@
     %link{href: asset_path(:images, 'favicon/favicon-96x96.png'), rel: 'icon', sizes: '32x32', type: 'image/png'}
     %link{href: asset_path(:images, 'favicon/favicon-32x32.png'), rel: 'icon', sizes: '32x32', type: 'image/png'}
     %link{href: asset_path(:images, 'favicon/favicon-16x16.png'), rel: 'icon', sizes: '16x16', type: 'image/png'}
-    = stylesheet_link_tag :site
-    = javascript_include_tag :all
+    = stylesheet_link_tag :style
+    = javascript_include_tag :stanford_javascript_crypto_library
+    = javascript_include_tag :application
   %body
     = yield
     - if environment == :development
