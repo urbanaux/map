@@ -34,4 +34,4 @@ document.addEventListener 'DOMContentLoaded', (event) ->
       {"featureType": "water", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 17}]}]
   }
 
-  new google.maps.Map(document.getElementById('google-maps'), mapOptions);
+  new google.maps.Map(document.getElementById('google-map'), mapOptions);
