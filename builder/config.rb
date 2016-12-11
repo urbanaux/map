@@ -3,7 +3,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 set :haml, ugly: true, format: :html5
-set :build_dir, '../build'
+set :build_dir, '../docs'
 
 configure :development do
   activate :livereload
